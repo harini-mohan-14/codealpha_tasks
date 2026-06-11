@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    background:#081b48;
+    color:white;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding-top:80px;
+}
+
+.profile-img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    border:8px solid gold;
+    object-fit:cover;
+    overflow:hidden;
+    display:flex;
+}
+
+.section-title{
+    margin-bottom:30px;
+    font-weight:bold;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+.loan img
+{
+    width:400px;
+    height:200px;
+    overflow:hidden;
+}
+
+
+.progress{
+    height:25px;
+}
+
+footer{
+    font-size:18px;
+}
